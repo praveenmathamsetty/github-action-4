@@ -22,7 +22,7 @@ jobs:
       - name: 'Synapse workspace deployment'
         uses: Azure/Synapse-workspace-deployment@v0.1
         with:
-          TargetWorkspaceName: 'aadsharmaprodcan'
+          TargetWorkspaceName: 'github-action-4'
           TemplateFile: './TemplateForWorkspace.json'
           ParametersFile: './TemplateParametersForWorkspace.json'
           environment: 'Azure Public'
